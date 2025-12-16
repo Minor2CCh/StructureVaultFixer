@@ -1,6 +1,5 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-#issueTrackerURL = ""
 license = "MIT"
 
 [[mods]]
@@ -8,6 +7,7 @@ modId = "structure_vault_fixer"
 version = "${version}"
 displayName = "StructureVaultFixer"
 authors = "Minor2CCh"
+displayURL = "https://modrinth.com/project/structure-vault-fixer"
 description = '''
 Fixed a bug where the Vault of target Structures might not become Active in MODs that add Structures.
 '''
