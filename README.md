@@ -8,5 +8,7 @@ This mod resolves the issue for treasure chests that fail to activate upon appro
 ## MODs/Datapacks to which the effect applies
 
 [Tower of Chambers](https://modrinth.com/mod/tower-of-chambers-neoforge)
+
 [City of Chambers](https://modrinth.com/mod/city-of-chambers)
+
 [Trial Airship](https://modrinth.com/datapack/trial-airship)
