@@ -12,3 +12,9 @@ This mod resolves the issue for treasure chests that fail to activate upon appro
 [City of Chambers](https://modrinth.com/mod/city-of-chambers)
 
 [Trial Airship](https://modrinth.com/datapack/trial-airship)
+
+# Config
+
+## canOverrideIntervalTime
+
+Apply repair if activation takes more than X ticks. (Default: 200)
