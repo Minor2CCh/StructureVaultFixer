@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "structure_vault_fixer",
+  "version": "${version}",
+  "name": "StructureVaultFixer",
+  "description": "Fixed a bug where the Vault of target Structures might not become Active in MODs that add Structures.",
+  "authors": [
+    "Minor2CCh"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.minor2cch.structurevaultfixer.fabric.StructureVaultFixerFabric"
+    ]
+  },
+  "mixins": [
+    "structure_vault_fixer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": ">=1.21 <=1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

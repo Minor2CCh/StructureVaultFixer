@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "structure_vault_fixer"
+version = "${version}"
+displayName = "StructureVaultFixer"
+authors = "Minor2CCh"
+description = '''
+Fixed a bug where the Vault of target Structures might not become Active in MODs that add Structures.
+'''
+logoFile = "icon.png"
+
+[[dependencies.structure_vault_fixer]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.structure_vault_fixer]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21, 1.21.11)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "structure_vault_fixer.mixins.json"
